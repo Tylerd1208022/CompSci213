@@ -844,13 +844,13 @@ Disassembly of section .text:
   40189c:	eb d8                	jmp    401876 <touch3+0x3c>
 
 000000000040189e <test>:
-  40189e:	48 83 ec 08          	sub    $0x8,%rsp
+  40189e:	48 83 ec 08          	sub    $0x8,%rsp      
   4018a2:	b8 00 00 00 00       	mov    $0x0,%eax
-  4018a7:	e8 7b fe ff ff       	callq  401727 <getbuf>
+  4018a7:	e8 7b fe ff ff       	callq  401727 <getbuf>                  xx xx xx xx xx xx xx xx (00 00 00 00 3d 17 40 00)
   4018ac:	89 c6                	mov    %eax,%esi
   4018ae:	bf 28 31 40 00       	mov    $0x403128,%edi
   4018b3:	b8 00 00 00 00       	mov    $0x0,%eax
-  4018b8:	e8 e3 f3 ff ff       	callq  400ca0 <printf@plt>
+  4018b8:	e8 e3 f3 ff ff       	callq  400ca0 <printf@plt>    
   4018bd:	48 83 c4 08          	add    $0x8,%rsp
   4018c1:	c3                   	retq   
 
